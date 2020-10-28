@@ -33,3 +33,16 @@ const { data:userData (changename), error, revalidate(서버에서 최신인지 
 withCredentials : login 했을때는 쿠키 같이 보내기 위해 사용해라
 
 </pre>
+<pre>
+?. :: optional chaning? 
+</pre>
+<pre>
+<strong>/:workspace : route parameter >> useParams</strong>
+</pre>
+<pre>
+event 같은 상호작용, 기능이 있다? > component
+단순 style만 있다? > styled component
+</pre>
+<pre>
+optimistic UI e.g) mutate
+</pre>
