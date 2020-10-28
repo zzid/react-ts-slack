@@ -61,11 +61,12 @@ const config: webpack.Configuration = {
   plugins: [
     new ForkTsCheckerWebpackPlugin({
       async: false,
-      // eslint: {
-      //   files: "./src/**/*",
-      // },
+      eslint: {
+        files: "./src/**/*",
+      },
     }),
     new webpack.EnvironmentPlugin({ NODE_ENV: isDevelopment ? 'development' : 'production' }),
+    new ReactRefreshWebpackPlugin(),
   ],
   output: {
     path: path.join(__dirname, 'dist'),
