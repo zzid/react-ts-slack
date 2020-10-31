@@ -45,4 +45,13 @@ event 같은 상호작용, 기능이 있다? > component
 </pre>
 <pre>
 optimistic UI e.g) mutate
+
+loadable-component >> code splitting >> opmization  필요할때만 import 해서 실행 (dynamic import)
+</pre>
+
+<pre>
+websocket : ws
+socket.io : ws, http
+
+memo : 부모가 리렌더 되더라도, 자식의 state가 바뀌지 않았다면 해당 자식은 re-render 되지 않는다.
 </pre>
